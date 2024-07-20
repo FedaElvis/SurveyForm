@@ -1,0 +1,85 @@
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #2b2b93a4;
+
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+ 
+  }
+
+#survey-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+input{
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+}
+
+.radio-input{
+  width: auto;
+}
+
+select{
+    width: 100%;
+}
+
+form{
+    background-color: rgb(136, 83, 83);
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    padding: 30px;
+    background-color: #0c0c38;
+  
+}
+
+
+
+.drop{
+    margin-top: 20px;
+}
+
+option{
+    /* width: 200px; */
+}
+
+.my-label{
+    display: inline;
+}
+
+  h1, p{
+    text-align: center;
+    font-family:monospace;
+  }
+
+
+label {
+    width: 100%;
+    display: block;
+    /* margin: 0.5rem 0; */
+    margin: 1rem 0;
+  }
+
+  textarea{
+    width: 100%;
+    height: 7rem;
+  }
+
+  button{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(87, 171, 87);
+    border: none;
+    color: white;
+    border-radius: 7px;
+  }
